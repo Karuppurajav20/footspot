@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(15, 14, 14);
+    color: white;
+    padding: 20px 10%;
+    align-items: center;
+}
+.one {
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(202, 72, 72);
+    margin-right: auto;
+}
+.two {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.two li a:hover {
+    color: brown;
+}
+.three {
+    padding: 10px 25px;
+    background-color: rgb(247, 3, 3);
+    border-radius: 50px;
+}
+.three:hover {
+    background-color: orange;
+}
+body{
+    background: url(image/login\ image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.hero{
+    color:white;
+    width: 500px;
+    background-color:rgb(7,7,7,0.2);
+    margin: 140px auto;
+    padding: 10px 20px 30px;
+    font-size: 20px;
+}
+.hero h1{
+    color:burlywood;
+    text-align: center;
+    font-size: 40px;
+}
+.hello label{
+    display: block;
+}
+
+input{
+    width: 80%;
+    font-size: 0.8em;
+    border: 3px solid green;
+    border-radius: 15px;
+    padding:10px 20px;
+    margin: 10px ;
+    border: none;
+}
+label{
+    padding-top: 20px;
+}
+
+h1{
+    margin: 20px;
+}
+button{
+    width: 100px;
+    height:40px;
+    border-radius: 50px;
+    border: none;
+    color:white;
+    background-color:rgb(114, 117, 117);
+}
+.btn {
+    padding-left: 40%;
+    padding-top: 10px;
+}
+button:hover{
+    background-color: rgb(0, 202, 50);
+}
+button:active{
+    background-color: rgb(31, 63, 137);
+}
